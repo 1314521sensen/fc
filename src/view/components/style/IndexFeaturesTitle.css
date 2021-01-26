@@ -1,0 +1,20 @@
+.IndexFeaturesTitle{
+    display:flex;
+    justify-content: center;
+    margin:30px 0;
+}
+.IndexFeaturesTitle span{
+    display:block;
+    color:#888;
+}
+.IndexFeaturesTitle span:first-child{
+    color:#ff371f;
+    font-size: 32px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #ff371f;
+    margin-bottom:10px;
+}
+.IndexFeaturesTitle span:last-child{
+    font-size: 13px;
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.navtitle span{
+    display: inline-block;
+    padding:0 10px 10px;
+    margin:30px 20px 0 0;
+}
+.navtitle span:last-child{
+    margin-right: 0;
+}
+.navtitle span.active{
+    color:#ff3517;
+    border-bottom:1px solid #ff3517;
+}

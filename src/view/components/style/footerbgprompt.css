@@ -1,0 +1,11 @@
+.prompt{
+    display: flex;
+    justify-content: center;
+    margin:40px 0;
+}
+.prompt_midden{
+    width:200px;
+    height:106px;
+    background-color:green;
+    background: url("../../../staic/index/allIcon.png") no-repeat 0 -110px;
+}

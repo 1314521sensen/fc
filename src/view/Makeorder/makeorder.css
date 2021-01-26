@@ -1,0 +1,115 @@
+.addresses_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px 0 70px;
+}
+.addresses_list .addresses_item{
+    /* flex:.4; */
+    width: 48%;
+    font-size: 13px;
+    padding:26px 20px;
+    background-color: #f2f2f2;
+    margin:0 40px 20px 0;
+}
+.addresses_list .addresses_item:nth-child(2n){
+    margin-right: 0;
+}
+.addresses_list .addresses_item .user_info_addres{
+    margin-bottom:15px;
+}
+.user_info_addres span:nth-child(1){
+    display:inline-block;
+    margin-right:30px;
+}
+.order_big_item .order_store{
+    font-size: 12px;
+    padding:0 10px;
+    margin:20px 0  10px;
+}
+.order_big_item .order_store span:nth-child(1){
+    margin-right:20px;
+}
+.makeorder_goods{
+    border:1px solid #ccc;
+    padding:20px;
+}
+.makeorder_goods .order_goods_item{
+    display: flex;
+    border-bottom:1px solid #ccc;
+}
+.makeorder_goods .order_goods_item:last-child{
+    border:0;
+}
+.makeorder_goods .order_goods_item .order_goods_image{
+    width: 80px;
+    height:80px;
+    background-color:pink;
+}
+.makeorder_goods .order_goods_item .goods_title{
+    margin:0 16px;
+}
+.makeorder_goods .order_goods_item .order_goods_price{
+    margin:0 198px 0 35px;
+}
+.makeorder_goods .order_goods_item .order_goods_price span:nth-child(1){
+    text-decoration:line-through;   
+}
+.makeorder_goods .order_goods_item .order_goods_nums{
+    margin:0px 89px;
+}
+.order_otherinfo_title{
+    font-size:16px;
+    margin:10px 0;
+}
+.order_Comments_operation{
+    border:1px solid #ccc;
+    padding:10px 20px;
+    font-size: 13px;
+}
+.order_Comments_left{
+    flex:.6;
+}
+.order_Comments_left input{
+    flex:.8;
+    height:100px;
+    border:1px solid #f2f2f2;
+}
+.order_Comments_right{
+    flex:.4;
+}
+.order_distribution_plice{
+    margin-bottom:10px;
+}
+.order_distribution_plice:last-child{
+    margin-bottom:0;
+}
+.order_settlement_left{
+    flex:.8;
+}
+.order_settlement_box{
+    border:1px solid #ff3517;
+    padding:10px 30px;
+    font-size: 13px;
+    margin:20px 0 70px;
+}
+.order_settlement_left .order_ul li{
+    margin-bottom:10px;
+}
+.order_settlement_left .order_ul li:last-child{
+    margin-bottom:0;
+}
+.total_price{
+    font-size: 16px;
+}
+.m_left{
+    margin-left:10px;
+}
+.order_settlement_right{
+    flex:.3
+}
+.order_settlement_right span{
+    padding:0px 40px;
+    height:40px;
+    line-height: 40px;
+    font-size: 16px;
+}

@@ -1,0 +1,36 @@
+.Shoplistvertical{
+    display: flex;
+    justify-content: space-between;
+}
+.shoplist_item{
+    width: 18%;
+    border:1px solid #ddd;
+}
+.shopimgs{
+    height:200px;
+    background-color:pink;
+}
+.shoplist_item .shoplist_bot {
+    padding:0 10px;
+}
+.shoplist_bot span{
+    display:block;
+    text-align: right;
+    /* font-size: 14px; */
+    
+}
+.shoplist_bot span:nth-child(1){
+    font-size: 16px;
+    text-align: left;
+}
+.shoplist_bot span:nth-child(2){
+    font-size: 18px;
+    color:#ff371f;
+    margin:6px 0;
+}
+.shoplist_bot span:nth-child(3){
+    font-size: 12px;
+    /* color:#ff371f; */
+    /* margin:10px 0; */
+    text-decoration:line-through;
+}

@@ -1,0 +1,238 @@
+.goods_margin{
+    margin-top:15px;
+}
+.goods_box{
+    display:flex;
+}
+.goods_box .goods_left{
+    flex:.4;
+}
+.goods_box .goods_big_imgs{
+    width: 95%;
+    height:400px;
+    background-color:pink;
+    margin-bottom:10px;
+}
+.goods_box .goods_small_imgs_box .goods_small_imgs_ul{
+    display:flex
+}
+.goods_box .small_image_item{
+    width: 60px;
+    height:60px;
+    background-color:pink;
+    margin-right:10px;
+}
+.goods_box .small_image_item:last-child{
+    margin-right: 0;
+}
+.goods_box .goods_right{
+    flex:.5;
+    /* background-color:green; */
+    padding:0 25px 20px;
+}
+.goods_right .goods_title{
+    font-size: 18px;
+}
+.goods_right .goods_small_title_box{
+    display:flex;
+    justify-content: space-between;
+}
+.goods_small_title_box .goods_smail_title{
+    font-size: 12px;
+}
+.goods_small_title_box .collection_btn{
+    display:inline-block;
+    padding:2px 18px;
+    border:1px solid #ff751f;
+    color:#ff751f;
+}
+.goods_price_box{
+    background-color: #fff2f1;
+    padding:30px 15px;
+    margin: 20px 0;
+}
+.goods_price_box .goods_price_top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goods_price_top .goods_price_top_left span:last-child{
+    /* display: flex; */
+    font-size: 24px;
+    color:#ff751f;
+    margin-left:40px;
+}
+.goods_price_bottom{
+    text-align: center;
+    font-size: 26px;
+    color:#ff751f;
+    margin-top:20px;
+}
+.distribution_box span{
+    display: inline-block;
+    margin-right:10px;
+    font-size: 13px;
+}
+.distribution_box .destination_opctin{
+    padding:3px 5px;
+    border:1px solid #ff751f;
+}
+.goods_nums_box{
+    display: flex;
+    align-items: center;
+}
+.goods_nums_box span{
+    display: inline-block;
+    margin-right:10px;
+}
+.goods_nums_box .choose_nums{
+    display:flex;
+    margin-left:20px;
+}
+.choose_nums span{
+    display:inline-block;
+    padding:0 8px;
+    background-color: #efefef;
+    margin-right:0;
+}
+.choose_nums input{
+    width: 40px;
+    height:25px;
+    text-align: center;
+    border-left:0;
+    border-right:0;
+    border:1px solid #eee;
+}
+.species{
+    margin-top:20px;
+}
+.species .species_radio{
+    display: flex;
+    margin-left:20px;
+}
+.species{
+    display:flex;
+}
+.species_radio .radioname{
+    display:inline-block;
+    margin:0 20px;
+}
+.commitment_box{
+    margin:20px 0;
+}
+.commitment_box span:last-child{
+    display:inline-block;
+    margin-left: 20px;
+}
+.pay_box span:nth-child(2){
+    display: inline-block;
+    margin:0px 20px 0;
+}
+.remind_box{
+    margin:20px 0;
+}
+.remind_box span:last-child{
+    display:inline-block;
+    margin-left: 20px;
+}
+.goodsbtn button{
+    padding:7px 20px;
+    color:#fff; 
+    box-shadow: 0 0 0 transparent;
+    border:0;
+}
+.goodsbtn button:first-child{
+    background-color: #ff7e1f;
+    margin-right:20px;
+    
+}
+.goodsbtn button:last-child{
+    background-color: #ff3715;
+}
+.product_box{
+    margin-top:30px;
+}
+.product_box span{
+    display:inline-block;
+    padding: 0 20px 5px;
+    color:#ff3715;
+    border-bottom:1px solid #ff3715;
+}
+.border_hr{
+    height:1px;
+    background-color: #ccc;
+}
+.product_instructions_midden{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.instructions_item{
+    width:30%;
+    margin-top:25px;
+}
+.comments_box{
+    /* display:flex; */
+    /* justify-content: space-between; */
+    margin:40px 0;
+}
+.comments_box span{
+    display:inline-block;
+    margin:0 15px;
+}
+.comments_item{
+    display: flex;
+    
+}
+.comments_item .comments_left{
+    display:flex;
+    justify-content:center;
+    flex:.1;
+    background-color: yellow;
+}
+.comments_left .user_acative{
+    width: 50px;
+    height:50px;
+    background-color: deeppink;
+    border-radius:50%;
+    
+}
+.comments_item{
+    padding:20px;
+    border:1px solid #ccc;
+    margin-bottom:10px;
+}
+.comments_item:last-child{
+    margin-bottom:0;
+}
+.comments_item .comments_midden{
+    flex:.8;
+    background-color: pink;
+}
+.comments_midden span{
+    display:block;
+    
+}
+.comments_midden span:first-child{
+    font-size:17px;
+}
+.comments_midden span:nth-child(2){
+    margin:10px 0;
+    font-size: 13px;
+}
+.comments_item .comments_titme{
+    flex:.2;
+    background-color:green;
+}
+.comments_img_box{
+    display: flex;
+}
+.comments_img_box .imgs{
+    width: 70px;
+    height:60px;
+    background-color: deeppink;
+    margin-right:10px;
+}
+.comments_titme span{
+    font-size: 13px;
+}

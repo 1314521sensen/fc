@@ -1,0 +1,39 @@
+.midden{
+    max-width: 1200px;
+    /* background-color:yellow; */
+    margin:0 auto;
+}
+.colortext{
+    color:#ff3517;
+}
+.bgcolor{
+    background-color: #ff3517;
+}
+.bot_hr{
+    height:1px;
+    background-color: #ccc;
+}
+.inline_block{
+    display: inline-block;
+}
+.blocks{
+    display: block !important;
+}
+.colorgray{
+    color:#999;
+}
+.flexlayout{
+    display:flex;
+}
+.flexjus_con_bet{
+    justify-content: space-between;
+}
+.flexjus_con_cen{
+    justify-content: center;
+}
+.flexalu_con_cen{
+    align-items: center;
+}
+.colorwhite{
+    color:#fff;
+}

@@ -1,0 +1,92 @@
+.index{
+
+}
+.index .indexmidden{
+    /* background-color:red; */
+    
+}
+
+.indexTab_box{
+    display:flex;
+    align-items: center;
+    margin-top:10px;
+    /* background-color:pink; */
+}
+.indexTab_box .tab_All_categories{
+    width: 20%;
+    background-color: #ff3715;
+    color:#fff;
+    font-size: 16px;
+    padding: 10px 0;
+    text-indent: 2em;
+}
+.indexTab_box .tab_title{
+    font-size: 16px;
+    margin-left:70px;
+    color:#ff3715;
+}
+.rules_box{
+    margin:20px 0 40px;
+}
+.rulesul{
+    display:flex;
+    justify-content: space-between;
+}
+.rulesul_item{
+    display:flex;
+    align-items: center;
+}
+.rulesul_item .rulesul_left{
+    width: 100px;
+    height:100px;
+    background: url('../../staic/index/baozhangIcon.png') no-repeat -6px -18px;
+    margin-right:10px;
+}
+.rulesul_right span{
+    display:block;
+    color:#888;
+    font-style: 13px;
+}
+.rulesul_right span:first-child{
+    color:#000;
+    font-style:18px;
+    margin: 10px 0 6px;
+}
+.Preferential_goods_box{
+    margin-top:30px;
+}
+.Preferential_goods_box .Preferential_goods_ul{
+    display: flex;
+    justify-content: space-between;
+}
+.Preferential_goods_ul .Preferential_goods_item{
+    width: 20%;
+}
+.Preferential_goods_item .imgs_box{
+    height:200px;
+    background-color:pink;
+}
+.imgs_box img{
+    width: 100%;
+    height:100%;
+}
+.Preferential_goods_item span{
+    display: block;
+    text-align: center;
+}
+.Preferential_goods_item .shoptitle{
+    margin: 30px 0 10px;
+    font-size:18px;
+}
+.Preferential_goods_item .Preferential_title{
+    color:#ff3715;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.Preferential_goods_item .snapbtn{
+    display: inline-block;
+    background-color: #ff3715;
+    color:#fff;
+    padding:5px 30px;
+    /* margin:auto; */
+}

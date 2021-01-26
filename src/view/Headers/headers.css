@@ -1,0 +1,30 @@
+.header_box{
+    background-color:#eee;
+}
+.header_box .header-midden{
+    display:flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding:5px 0;
+}
+.headers-right .headers-right_list{
+    display:flex;
+}
+.headers-right_list .headers-right_item{
+   display: flex;
+   align-items: center;
+}
+
+.headers-right_item span:last-child{
+    display:inline-block;
+    width: 1px;
+    height:12px;
+    border-right:1px solid #000;
+    margin:0 10px;
+}
+.headers-right_item span a{
+    color:#000;
+}
+.headers-right_item:last-child > span:last-child{
+    display:none;
+}

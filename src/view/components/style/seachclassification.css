@@ -1,0 +1,22 @@
+.seachclassification{
+    display:flex;
+    flex-wrap: wrap;
+    width: 20%;
+    background-color:#ffb918;
+    padding:20px;
+}
+.seachclassification span{
+    display:inline-block;
+    border:1px solid #fff;
+    padding:3px 6px;
+    font-size: 13px;
+    color:#fff;
+    margin:0 40px 15px 0;
+    height:30px;
+}
+.seachclassification span:last-child{
+    margin-bottom:0;
+}
+.seachclassification span:nth-child(2n){
+    margin-right:0 ;
+}

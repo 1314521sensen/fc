@@ -1,0 +1,30 @@
+.footers{
+    
+    background-color: #fcfcfc;
+    border-top:1px solid #ccc;
+    padding: 50px 0;
+}
+.footers_midden{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footers_top span{
+    /* background-color:red; */
+    padding:0 10px;
+    border-right:1px solid #000;
+    font-size: 12px;
+}
+.footers_top span:nth-child(1){
+    padding-left:0;
+}
+.footers_top span:last-child{
+    padding-right:0;
+    border-right:0;
+}
+.license{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    margin-top:20px;
+}

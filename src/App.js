@@ -4,7 +4,8 @@ class App extends Component{
   render(){
     return (
       <div>
-        <h1>hellow</h1>
+        {/* <Headers></Headers> */}
+        {/* <h1>hellow</h1> */}
       </div>
     )
   }
