@@ -1,5 +1,6 @@
 import React,{Component} from "react";
 import {Link} from "react-router-dom"
+import {getCache} from "../../config"
 import "../../index.css"
 import "./headers.css"
 export default class Headers extends Component{
@@ -33,6 +34,18 @@ export default class Headers extends Component{
                 }
             ]
         }
+        this.Whetherlogin()
+    }
+    Whetherlogin(){
+        let headercopy = this.state.headerdata
+        if(getCache('userdata')){
+            for(let i=0;i<=1;i++){
+                delete headercopy[i]
+            }
+            headercopy.unshift({
+                title:'您好,'+getCache('userdata').phone
+            })
+        }    
     }
     render(){
         return (
