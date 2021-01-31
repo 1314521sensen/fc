@@ -37,6 +37,28 @@ export default class Plicelogin extends Component {
             loginbool: Boolean(Number(opction.loginbool))
         }
     }
+    pliceloginlogin(e){
+        e.preventDefault()
+        let inputs = document.getElementsByTagName('input')
+        // console.log(inputs)
+        // console.log(this.state.loginbool)
+        let obj = {}
+        if(this.state.loginbool){
+            obj = {
+                phone:inputs[0].value,
+                code:inputs[1].value,
+                password:inputs[2].value
+            }
+        }else{
+            obj = {
+                phone:inputs[0].value,
+                password:inputs[1].value
+            }
+        }
+        // console.log(obj)
+        //将参数传递出去
+        this.props.handplicelogin(obj)
+    }
     render() {
         return (
             <div className="pliceLogoin">
@@ -45,7 +67,11 @@ export default class Plicelogin extends Component {
                         <div className="right_login_box">
                             <div className="login_title">{this.state.loginbool ? '欢迎注册' : '欢迎登录'}</div>
                             <div className="from_box">
-                                <form className="form">
+                                <form 
+                                    className="form" 
+                                    method="post"
+                                    onSubmit={this.pliceloginlogin.bind(this)}
+                                >
                                     {
                                         this.state.loginbool && <div className="registered_box">
                                             {
@@ -63,7 +89,7 @@ export default class Plicelogin extends Component {
                                                                 name={item.name}
                                                             />
                                                             <div
-                                                                class="Verification"
+                                                                className="Verification"
                                                                 style={{ 'display': index == 1 ? 'block' : 'none' }}
                                                             >获取验证码</div>
                                                         </div>
@@ -95,7 +121,9 @@ export default class Plicelogin extends Component {
                                         </div>
                                     }
                                     <div className="login_btn_box">
-                                        <button className="loginbtn">{this.state.loginbool ? '立即注册' : '登录'}</button>
+                                        <button 
+                                            className="loginbtn"
+                                        >{this.state.loginbool ? '立即注册' : '登录'}</button>
                                     </div>
                                     <div className="other_login">
                                         {

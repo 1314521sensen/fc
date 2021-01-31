@@ -9,6 +9,7 @@ import IndexFeaturesTitle from "../components/indexfeaturesTitle"
 import Shoplistvertical from "../components/shoplistvertical"
 import Footerbgprompt from "../components/footerbgprompt"
 import Logohead from "../components/logohead"
+import getDataFromServer from "../../request"
 export default class Index extends Component {
   constructor(props) {
     super(props)
@@ -146,7 +147,7 @@ export default class Index extends Component {
               {
                 this.state.arr.map((item, index) => {
                   return (
-                    <div>
+                    <div key={index}>
                         <IndexFeaturesTitle
                         title="休闲零食"
                         smalltitle=""
@@ -167,6 +168,13 @@ export default class Index extends Component {
       </div>
       </div>
     )
+  }
+  componentDidMount(){
+    // getDataFromServer('recommend','get',{api_name:['item_recommend']}).then((res)=>{
+    //   console.log(res)
+    // }).catch((err)=>{
+    //   console.log(err)
+    // })
   }
 }
 

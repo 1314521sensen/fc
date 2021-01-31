@@ -4,7 +4,7 @@ import "./style/shoplistvertical.css"
 export default class Shoplistvertical extends Component {
     constructor(opction) {
         super(...arguments)
-        console.log(opction)
+        // console.log(opction)
         this.state = {
             Leisureseachdata: opction.Leisureseachdata,
             shoplistdata: opction.shoplistdata,
@@ -18,7 +18,7 @@ export default class Shoplistvertical extends Component {
                 {
                     this.state.shoplistdata.map((item, index) => {
                         return (
-                            <div className="shoplist_item">
+                            <div className="shoplist_item" key={index}>
                                 <div className="shopimgs">
 
                                 </div>

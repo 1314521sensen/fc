@@ -3,7 +3,7 @@ import "./style/seachclassification.css"
 export default class Seachclassification extends Component{
     constructor(opction){
         super(...arguments)
-        console.log(opction)
+        // console.log(opction)
         this.state = {
             list:opction.Leisureseachdata
         }
@@ -13,7 +13,7 @@ export default class Seachclassification extends Component{
             <div className="seachclassification">
                 {
                     this.state.list.map((item,index)=>{
-                        console.log(item)
+                        {/*console.log(item)*/}
                         return (
                             <span key={index}>{item}</span>
                         )

@@ -18,7 +18,6 @@ import Footers from "../view/Footers/Footers"
 
 class AppRouter extends Component{
   render(){
-      console.log(Index)
     return (
       <div>
         <Switch>

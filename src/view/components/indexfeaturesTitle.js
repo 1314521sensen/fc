@@ -3,7 +3,7 @@ import "./style/IndexFeaturesTitle.css"
 export default class IndexFeaturesTitle extends Component {
     constructor(props){
         super(...arguments)
-        console.log(props)
+        // console.log(props)
     }
     render(){
         return (

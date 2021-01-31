@@ -16,7 +16,7 @@ export default class Footers extends Component{
                         {
                             this.state.footersToplist.map((item,index)=>{
                                 return (
-                                    <span>{item}</span>
+                                    <span key={index}>{item}</span>
                                 )
                             })
                         }

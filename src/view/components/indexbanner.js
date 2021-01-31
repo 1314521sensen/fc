@@ -20,7 +20,6 @@ export default class IndexBanner extends Component {
         }
     }
     render() {
-        console.log(1111)
         return (
             <div className="banner">
                 <Carousel autoplay>
